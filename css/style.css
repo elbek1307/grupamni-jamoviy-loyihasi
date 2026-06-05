@@ -10,6 +10,8 @@
     width: 80%;
     max-width: 1440px;
     margin: 0 auto;
+    border: 4px solid red;
+    padding: 0 20px;
 }
 
 nav{
@@ -29,4 +31,58 @@ nav .container{
     display: flex;
     align-items: center;
     gap: 30px;
+}
+.hero-info{
+    padding: 60px 0;
+}
+.hero-card{
+  display: flex;
+  align-items: start;
+  justify-content: space-between;
+}
+.hero-left{
+    max-width: 45%;
+}
+.hero-title{
+    max-width: 534px;
+    font-weight: 300;
+    font-size: 58px;
+    line-height: 64px;
+    letter-spacing: 5%;
+    margin-bottom: 85px;
+}
+.hero-btns{
+    display: flex;
+    align-items: center;
+    gap: 24px;
+}
+.hero-btn{
+    max-height: 188px;
+    display: block;
+    text-align: center;
+    padding: 12px 24px;
+    border: 2px solid #FFE145;
+    border-radius: 4px;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+    letter-spacing: 0.5%;
+    background: none;
+    transition: all 03.s ease-in-out;
+    &:hover{
+        transform: scale(0.9);
+        background: #FFE145;
+        color: #fff;
+    }
+}
+.hero-span{
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;
+}
+.hero-right{
+    max-width: 55%;
+}
+.hero-taom{
+    max-width: 100%;
 }
