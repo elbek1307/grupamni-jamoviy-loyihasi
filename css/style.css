@@ -142,7 +142,6 @@ nav .container{
         align-items: center;
         text-align: center;
     }
-
     .hero-left, .hero-right {
         max-width: 100%;
         width: 100%;
@@ -150,7 +149,6 @@ nav .container{
     .hero-right{
         margin-bottom: 40px;
     }
-
     .hero-title {
         margin: 0 auto 30px auto;
         font-size: 35px;
@@ -165,6 +163,7 @@ nav .container{
         padding: 20px;
     }
 }
+
 @media (max-width: 767px) {
     .hero-list {
         grid-template-columns: 1fr; 
@@ -174,6 +173,7 @@ nav .container{
         width: 80%; 
     }
 }
+
 @media (max-width: 576px) {
     .hero-info{
         padding: 20px 0;
