@@ -100,18 +100,18 @@ nav .container{
 .right-span {
      position: absolute;
     bottom: -8%;
-    right: -0%;
+    right: -2%;
     z-index: 2;
     color: #313030;
     font-weight: 400;
-    font-size: 16px;
+    font-size: 14px;
     line-height: 24px;  
 }
 .hero-list{
     max-width: 872px;
     box-shadow: 0px 8px 40px 0px #00000014;
     background: #FFFFFF;
-    padding: 24px 0;
+    padding: 24px 6px;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 30px;
@@ -121,4 +121,10 @@ nav .container{
     display: flex;
     align-items: center;
     gap: 16px;
+}
+.hero-text{
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.5%;
 }
