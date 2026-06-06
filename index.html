@@ -17,7 +17,8 @@
             <div class="nav_box">
                 <img src="./images/log-in.svg" alt="logn" class="nav_logn">
                 <img src="./images/cart.svg" alt="cart" class="nav_cart">
-                <img src="./images/burger.svg" alt="menu" class="nav_burger" id="nav_burger">
+                <img src="./images/burger.svg" alt="menu" class="nav_burger" id="nav_burger" onclick="openMenu()">
+                <img src="./images/exit.svg" alt="exit" id="nav_exit" onclick="exitMenu()">
             </div>
         </container>
      </nav>
@@ -61,9 +62,32 @@
      </div>
     </div>
     </div>
-  </main>
-    
 
+
+
+
+     
+  </main>
+
+
+ 
+    <div class="nav_menu" id="nav_menu">
+        <a class="nav_menu_box" href="#"><img class="tel_svg" src="./images/tel.svg" alt="">0800 111 126</a>
+        <h6>8:00 - 22:00</h6>
+        <div class="nav_menu_list">
+            <a href="" class="nav_menu_item">Delivery info</a>
+            <a href="" class="nav_menu_item">About us</a>
+            <a href="" class="nav_menu_item">Restaurants</a>
+            <a href="" class="nav_menu_item">Specialities</a>
+        </div>
+
+        <select name="" id="" class="nav_menu_select">
+            <option value="en">English</option>
+            <option value="uz">Uzbek</option>
+            <option value="ru">Russian</option>
+        </select>
+  </div>
+ 
 
     <script src="./main.js"></script>
 </body>

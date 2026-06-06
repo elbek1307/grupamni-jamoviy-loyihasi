@@ -33,6 +33,78 @@ nav .container{
     gap: 30px;
 }
 
+#nav_exit{
+    display: none;
+}
+
+.nav_menu{
+    display: none;
+    position: fixed;
+    width: 300px;
+    height: 100vh;
+    background-color: #f8f8f83c;
+    top: 0;
+    right: 0;
+    margin-top: 84px;
+    backdrop-filter: blur(10px);
+    border-left: #D4D7E5 solid 2px;
+    padding: 30px;
+    gap: 20px;
+
+}
+
+.nav_menu_box{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    color: #9093A6;
+}
+
+.tel_svg{
+    height: 30px;
+}
+
+.nav_menu h6{
+    color: #9093A6;
+    margin-top: 10px;
+    margin-left: 40px;
+}
+
+.nav_menu_list{
+    display: flex;
+    flex-direction: column;
+    margin: 50px 0;
+}
+
+.nav_menu_item{
+    padding: 20px;
+    color: #9093A6;
+    border-top: 1px solid #F2F4FA;
+    border-bottom: 1px solid #F2F4FA;
+    border-radius: 10px;
+    transition: all 0.3s;
+}
+
+.nav_menu_item:hover{
+    color: white;
+    background-color: #c4d0f5;
+}
+
+.nav_menu_select{
+    width: 70px;
+    height: 28px;
+    border: solid 1px #9093A6;
+     color: #9093A6;
+    padding: 5px;
+    text-align: center;
+    margin-left: 50%;
+    border-radius: 4px;
+}
+
+.nav_menu_select option{
+        color: #9093A6;
+    font-size: 700;
+}
 
 .hero-info{
     padding: 60px 0;
@@ -174,6 +246,9 @@ nav .container{
 }
 
 @media (max-width: 576px) {
+   
+
+
     .hero-info{
         padding: 20px 0;
     }
