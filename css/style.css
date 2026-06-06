@@ -38,19 +38,19 @@ nav .container{
 }
 
 .nav_menu{
-    display: none;
     position: fixed;
     width: 300px;
     height: 100vh;
-    background-color: #f8f8f83c;
+    background-color: #f8f8f87c;
     top: 0;
     right: 0;
+    z-index: 10;
     margin-top: 84px;
     backdrop-filter: blur(10px);
     border-left: #D4D7E5 solid 2px;
     padding: 30px;
     gap: 20px;
-
+    display: none;
 }
 
 .nav_menu_box{
@@ -104,6 +104,11 @@ nav .container{
 .nav_menu_select option{
         color: #9093A6;
     font-size: 700;
+}
+
+.nav_menu_logn, .nav_menu_cart{
+    margin: 30px;
+    display: none;
 }
 
 .hero-info{
@@ -247,7 +252,13 @@ nav .container{
 
 @media (max-width: 576px) {
    
+    .nav_menu_logn, .nav_menu_cart{
+        display: block;
+    }
 
+    .nav_logn, .nav_cart{
+        display: none;
+    }
 
     .hero-info{
         padding: 20px 0;
