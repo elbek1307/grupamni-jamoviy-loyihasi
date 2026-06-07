@@ -294,7 +294,17 @@ nav .container{
   margin: 0;
   white-space: nowrap; 
 }
-
+.location{
+        width: 80%;
+        margin: 0 auto;
+        padding: 50px 20px;
+}
+.location img{
+    width: 1260px;
+        height: 500px;
+        top: 2401px;
+        left: 91px;
+}
 
 
 
