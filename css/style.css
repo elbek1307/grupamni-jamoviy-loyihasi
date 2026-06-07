@@ -430,3 +430,61 @@ nav .container{
         line-height: 17px;
     }
 }
+.specialities{
+    display: flex;
+    justify-content: space-between;
+}
+.f-specialities{
+    margin-left: 50px;
+    font-size: 40px;
+    color: rgb(89, 89, 89);
+}
+.btn-showall{
+    height: 40px;
+    width: 100px;
+    margin-right: 50px;
+    color: black;
+}
+.btn-showall:hover{
+    background-color: rgb(233, 233, 0);
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+.img-bagel{
+    width: 70px;
+    margin-bottom: 0;
+    margin-left: 35px;
+}   
+.f-bagel{
+    font-weight: lighter;
+    margin-left: 42px;  
+    margin-top: 0;
+}
+.menu{
+    display: flex;
+    margin-top: 30px;
+    justify-content: space-around;
+    margin-right: 20px;
+    margin-bottom: 50px;
+    animation: slide 10s linear infinite;
+}
+@keyframes slide {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(-100%);
+  }
+}   
+.first-menu{
+    display: flex;
+    flex-direction: column;
+    margin-left: 50px;
+    background-color: rgb(231, 231, 231);
+    border-radius: 5px;
+}
+.menu-fonts{
+    margin-top: 0px;
+    margin-right: 25px;
+}
