@@ -212,6 +212,140 @@ nav .container{
     line-height: 24px;
     letter-spacing: 0.5%;
 }
+.section_theare {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+  padding: 80px 0;
+  background-image:url(../images/bg.png) ;
+  background-size: cover;
+  background-position: center;
+  font-family: 'Poppins', sans-serif;
+}
+
+.section_theare .container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+.section_theare_cards {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 40px;
+  flex-wrap: wrap; 
+}
+
+.section_theare .card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 180px;
+  text-align: center;
+}
+
+.section_theare .card ul {
+  list-style: none;
+  padding: 0;
+  margin: 0 0 15px 0;
+  position: relative;
+  width: 110px;
+  height: 110px;
+}
+
+.section_theare .card ul::before {
+  content: '';
+  position: absolute;
+  top: -10px; 
+  left: 2px;
+  width: 106px;
+  height: 106px;
+  border: 1px solid #bc9c22; 
+  border-radius: 50%;
+  z-index: 1;
+}
+
+.section_theare .card ul span {
+  position: absolute;
+  bottom: 0;
+  left: 2px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 106px;
+  height: 106px;
+  background-color: #ffd643;
+  border-radius: 50%;
+  z-index: 2; 
+}
+
+.section_theare .card ul span p {
+  margin: 0;
+  font-size: 42px;
+  font-weight: 700;
+  color: #2d3142; 
+}
+
+.section_theare .card h1 {
+  font-size: 22px;
+  color: #2d3142;
+  font-weight: 700;
+  margin: 0;
+  white-space: nowrap; 
+}
+
+
+
+@media (max-width: 992px) {
+  .section_theare {
+    padding: 60px 0;
+  }
+  .section_theare_cards {
+    gap: 30px; 
+  }
+}
+
+@media (max-width: 768px) {
+  .section_theare .card {
+    width: 150px; 
+  }
+  
+  .section_theare .card ul {
+    width: 90px;
+    height: 90px;
+  }
+
+  .section_theare .card ul::before {
+    width: 86px;
+    height: 86px;
+    top: -8px;
+  }
+
+  .section_theare .card ul span {
+    width: 86px;
+    height: 86px;
+  }
+
+  .section_theare .card ul span p {
+    font-size: 32px;
+  }
+
+  .section_theare .card h1 {
+    font-size: 18px;
+  }
+}
+
+@media (max-width: 480px) {
+  .section_theare {
+    padding: 40px 0;
+  }
+  .section_theare_cards {
+    flex-direction: column; 
+    align-items: center;
+    gap: 35px;
+  }
+}
 
 @media (max-width: 992px) {
     .hero-card {
