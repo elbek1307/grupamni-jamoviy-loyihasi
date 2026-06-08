@@ -498,3 +498,110 @@ nav .container{
     margin-top: 0px;
     margin-right: 25px;
 }
+
+
+
+
+
+
+
+
+.container {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 40px;
+ display: flex;
+ justify-content: space-between;
+ align-items: center;
+ padding: 80px 120px;
+ background: #F2F4FA;
+}
+
+.nearest_left h3{
+  width: 509px;
+height: 64px;
+top: 80px;
+left: 172px;
+opacity: 1;
+font-family: sans-serif;
+font-weight: 300;
+font-size: 36px;
+line-height: 64px;
+letter-spacing: 8%;
+vertical-align: middle;
+color: #3F4255;
+}
+
+.nearest_left p{
+ width: 424px;
+height: 48px;
+top: 168px;
+left: 172px;
+opacity: 1;
+font-family: sans-serif;
+font-weight: 400;
+font-size: 16px;
+line-height: 24px;
+letter-spacing: 0.5px;
+vertical-align: middle;
+color: #3F4255;
+}
+
+.nearest_form{
+    display: flex;
+    align-items: center;
+}
+
+.nearest_form input{
+    width: 330px;
+    height: 72px;
+    border: none;
+    outline: none;
+    padding: 0 20px;
+    background: #FFFFFF;
+    border-radius: 6px 0 0 6px;
+    font-size: 16px;
+}
+
+.nearest_form button{
+    width: 90px;
+    height: 72px;
+    border: none;
+    background: #FFE145;
+    color:rgb(142, 142, 43);
+    font-size: 16px;
+    font-weight: 600;
+    border-radius: 0 6px 6px 0;
+    transition: 0.3s;
+}
+
+.nearest_form button:hover{
+    transform: scale(1.03);
+}
+
+@media (max-width:768px){
+
+    .container{
+        flex-direction: column;
+        gap: 30px;
+        padding: 40px 20px;
+        text-align: center;
+    }
+
+    .nearest_left h3{
+        font-size: 32px;
+    }
+
+    .nearest_form{
+        width: 100%;
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .nearest_form input,
+    .nearest_form button{
+        width: 100%;
+        border-radius: 6px;
+    }
+}
