@@ -442,6 +442,9 @@ nav .container{
 .specialities{
     display: flex;
     justify-content: space-between;
+    margin-right: 170px;
+    margin-left: 170px;
+    margin-top: 10px;
 }
 .f-specialities{
     margin-left: 50px;
