@@ -504,20 +504,6 @@ nav .container{
 
 
 
-
-
-.container {
-  width: 100%;
-  max-width: 1200px;
-  margin: 0 auto;
-  padding: 0 40px;
- display: flex;
- justify-content: space-between;
- align-items: center;
- padding: 80px 120px;
- background: #F2F4FA;
-}
-
 .nearest_left h3{
   width: 509px;
 height: 64px;
@@ -582,12 +568,7 @@ color: #3F4255;
 
 @media (max-width:768px){
 
-    .container{
-        flex-direction: column;
-        gap: 30px;
-        padding: 40px 20px;
-        text-align: center;
-    }
+   
 
     .nearest_left h3{
         font-size: 32px;
